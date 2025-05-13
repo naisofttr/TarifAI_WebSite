@@ -1,0 +1,9 @@
+Bu klasöre aşağıdaki görselleri eklemeniz gerekmektedir:
+
+1. favicon.png - Site favicon'u (32x32 piksel)
+2. hero-app.png - Hero kısmında gösterilecek uygulama ekran görüntüsü
+3. app-screens.png - Nasıl çalışır kısmında gösterilecek uygulama ekran görüntüleri
+4. app-download.png - İndirme kısmında gösterilecek uygulama görseli
+5. avatar-1.jpg, avatar-2.jpg, avatar-3.jpg - Kullanıcı yorumları için profil görselleri
+
+Not: Görseller TarifAI uygulamasının renklerine ve tasarımına uyumlu olmalıdır. Kırmızı (#FF6B6B) ve turkuaz (#4ECDC4) renkleri ön planda olabilir.

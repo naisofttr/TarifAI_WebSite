@@ -1,0 +1,100 @@
+{
+  "app": {
+    "name": "TarifAI",
+    "slogan": "AI-powered recipe app that solves your 'what to cook tonight' dilemma"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "testimonials": "Testimonials",
+    "download": "Download",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Cooking Made Easier with TarifAI",
+    "subtitle": "Find delicious recipes based on ingredients you have, and get answers to what you should cook tonight",
+    "cta": "Download Now",
+    "secondaryCta": "Learn More"
+  },
+  "features": {
+    "title": "Why TarifAI?",
+    "subtitle": "We make cooking easier with our AI-powered app",
+    "feature1": {
+      "title": "Smart Recipe Suggestions",
+      "description": "Provides the most suitable recipes based on ingredients you have"
+    },
+    "feature2": {
+      "title": "Menu Planning",
+      "description": "Creates menus for special occasions, guests, or dietary restrictions"
+    },
+    "feature3": {
+      "title": "Various Categories",
+      "description": "Recipes categorized for main courses, desserts, soups, and more"
+    },
+    "feature4": {
+      "title": "Save Favorites",
+      "description": "Save your favorite recipes for easy access later"
+    },
+    "feature5": {
+      "title": "Chef Menus",
+      "description": "Get inspired by menus from famous chefs"
+    },
+    "feature6": {
+      "title": "Special Diet Options",
+      "description": "Special recipes for vegetarian, vegan, gluten-free, and many other diets"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": {
+      "title": "Select Ingredients",
+      "description": "Choose or search for ingredients you have on hand"
+    },
+    "step2": {
+      "title": "Request Recipe or Menu",
+      "description": "TarifAI suggests the best recipes or menus possible with your selected ingredients"
+    },
+    "step3": {
+      "title": "Discover Flavors",
+      "description": "Start cooking immediately with detailed recipes, ingredient amounts, and cooking methods"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Users Say",
+    "testimonial1": {
+      "text": "I no longer stress about what to cook for dinner. TarifAI offers perfect suggestions for me!",
+      "author": "Amy K."
+    },
+    "testimonial2": {
+      "text": "Thanks to the app, I've learned so many new recipes. It's exciting to see what I can make with ingredients at home.",
+      "author": "Mike Y."
+    },
+    "testimonial3": {
+      "text": "I got great suggestions for the menu I prepared for my guests. They all loved it.",
+      "author": "Sarah S."
+    }
+  },
+  "download": {
+    "title": "Download Now",
+    "subtitle": "Download TarifAI now and discover your creativity in the kitchen",
+    "appStore": "Download from App Store",
+    "googlePlay": "Download from Google Play"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Contact us for your questions",
+    "email": "Email",
+    "message": "Your Message",
+    "send": "Send",
+    "address": "Contact",
+    "supportEmail": "tarifaiapp@gmail.com",
+    "website": "https://tarifai.app"
+  },
+  "footer": {
+    "copyright": "© 2025 TarifAI. All rights reserved.",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "developedBy": "Developed by NAISoft"
+  }
+}

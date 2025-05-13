@@ -1,0 +1,100 @@
+{
+  "app": {
+    "name": "TarifAI",
+    "slogan": "Akşama ne pişirsem sorunuza çözüm sunan AI destekli tarif uygulaması"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "features": "Özellikler",
+    "testimonials": "Yorumlar",
+    "download": "İndir",
+    "contact": "İletişim",
+    "language": "Dil"
+  },
+  "hero": {
+    "title": "TarifAI ile Yemek Yapmak Artık Daha Kolay",
+    "subtitle": "Sahip olduğunuz malzemelere göre lezzetli tarifler bulun, akşama ne pişireceğim sorusuna yanıt alın",
+    "cta": "Hemen İndir",
+    "secondaryCta": "Daha Fazla Bilgi"
+  },
+  "features": {
+    "title": "Neden TarifAI?",
+    "subtitle": "Yapay zeka destekli uygulamamız ile yemek pişirmeyi kolaylaştırıyoruz",
+    "feature1": {
+      "title": "Akıllı Tarif Önerileri",
+      "description": "Sahip olduğunuz malzemelere göre en uygun tarifleri sunar"
+    },
+    "feature2": {
+      "title": "Menü Planlama",
+      "description": "Özel günler, misafirler veya diyet kısıtlamaları için menüler oluşturur"
+    },
+    "feature3": {
+      "title": "Çeşitli Kategoriler",
+      "description": "Ana yemekler, tatlılar, çorbalar ve daha fazlası için kategorilere ayrılmış tarifler"
+    },
+    "feature4": {
+      "title": "Favorileri Kaydet",
+      "description": "Beğendiğiniz tarifleri kaydederek daha sonra kolayca erişin"
+    },
+    "feature5": {
+      "title": "Şef Menüleri",
+      "description": "Ünlü şeflerin menülerinden ilham alın"
+    },
+    "feature6": {
+      "title": "Özel Diyet Seçenekleri",
+      "description": "Vejetaryen, vegan, glutensiz ve daha birçok diyet için özel tarifler"
+    }
+  },
+  "howItWorks": {
+    "title": "Nasıl Çalışır?",
+    "step1": {
+      "title": "Malzemeleri Seçin",
+      "description": "Elinizde bulunan malzemeleri seçin veya arayın"
+    },
+    "step2": {
+      "title": "Tarif veya Menü İsteyin",
+      "description": "TarifAI, seçtiğiniz malzemelerle yapılabilecek en iyi tarifleri veya menüleri önerir"
+    },
+    "step3": {
+      "title": "Lezzeti Keşfedin",
+      "description": "Detaylı tarifler, malzeme miktarları ve pişirme yöntemleriyle hemen yemek yapmaya başlayın"
+    }
+  },
+  "testimonials": {
+    "title": "Kullanıcılarımız Ne Diyor?",
+    "testimonial1": {
+      "text": "Artık akşama ne pişireceğim konusunda hiç stres yapmıyorum. TarifAI benim için mükemmel öneriler sunuyor!",
+      "author": "Ayşe K."
+    },
+    "testimonial2": {
+      "text": "Uygulama sayesinde çok fazla yeni tarif öğrendim. Evdeki malzemelerle neler yapabileceğimi görmek çok keyifli.",
+      "author": "Mehmet Y."
+    },
+    "testimonial3": {
+      "text": "Misafirlerim için hazırladığım menü için harika öneriler aldım. Hepsi çok beğendiler.",
+      "author": "Zeynep S."
+    }
+  },
+  "download": {
+    "title": "Hemen İndirin",
+    "subtitle": "TarifAI'yi şimdi indirin ve mutfakta yaratıcılığınızı keşfedin",
+    "appStore": "App Store'dan İndir",
+    "googlePlay": "Google Play'den İndir"
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Sorularınız için bize ulaşın",
+    "email": "E-posta",
+    "message": "Mesajınız",
+    "send": "Gönder",
+    "address": "İletişim",
+    "supportEmail": "tarifaiapp@gmail.com",
+    "website": "https://tarifai.app"
+  },
+  "footer": {
+    "copyright": "© 2025 TarifAI. Tüm hakları saklıdır.",
+    "terms": "Kullanım Koşulları",
+    "privacy": "Gizlilik Politikası",
+    "developedBy": "NAISoft tarafından geliştirilmiştir"
+  }
+}
