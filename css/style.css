@@ -556,6 +556,18 @@ a:hover {
         margin-top: 0.5rem;
     }
     
+    .navbar-collapse .nav-link {
+        color: #ffffff !important;
+    }
+    
+    .navbar-collapse .nav-link:hover {
+        color: rgba(255, 255, 255, 0.8) !important;
+    }
+    
+    .navbar-collapse .dropdown-toggle {
+        color: #ffffff !important;
+    }
+    
     .hero-section {
         padding: 150px 0 100px;
     }
