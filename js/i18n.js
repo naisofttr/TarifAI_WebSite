@@ -19,7 +19,8 @@ let translations = {
             "testimonials": "Yorumlar",
             "download": "İndir",
             "contact": "İletişim",
-            "language": "Dil"
+            "language": "Dil",
+            "privacy": "Gizlilik Politikası"
         },
         "hero": {
             "title": "TarifAI ile Yemek Yapmak Artık Daha Kolay",
@@ -157,7 +158,8 @@ let translations = {
             "testimonials": "Testimonials",
             "download": "Download",
             "contact": "Contact",
-            "language": "Language"
+            "language": "Language",
+            "privacy": "Privacy Policy"
         },
         "hero": {
             "title": "Cooking Made Easier with TarifAI",
