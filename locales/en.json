@@ -10,7 +10,8 @@
     "download": "Download",
     "contact": "Contact",
     "language": "Language",
-    "privacy": "Privacy Policy"
+    "privacy": "Privacy Policy",
+    "howItWorks": "How It Works?"
   },
   "hero": {
     "title": "Cooking Made Easier with TarifAI",
@@ -47,7 +48,7 @@
     }
   },
   "howItWorks": {
-    "title": "How It Works",
+    "title": "How It Works?",
     "step1": {
       "title": "Select Ingredients",
       "description": "Choose or search for ingredients you have on hand"

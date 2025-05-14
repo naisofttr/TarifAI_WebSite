@@ -20,7 +20,8 @@ let translations = {
             "download": "İndir",
             "contact": "İletişim",
             "language": "Dil",
-            "privacy": "Gizlilik Politikası"
+            "privacy": "Gizlilik Politikası",
+            "howItWorks": "Nasıl Çalışır?"
         },
         "hero": {
             "title": "TarifAI ile Yemek Yapmak Artık Daha Kolay",
@@ -159,7 +160,8 @@ let translations = {
             "download": "Download",
             "contact": "Contact",
             "language": "Language",
-            "privacy": "Privacy Policy"
+            "privacy": "Privacy Policy",
+            "howItWorks": "How It Works?"
         },
         "hero": {
             "title": "Cooking Made Easier with TarifAI",
@@ -204,7 +206,7 @@ let translations = {
             }
         },
         "howItWorks": {
-            "title": "How It Works",
+            "title": "How It Works?",
             "step1": {
                 "title": "Select Ingredients",
                 "description": "Choose or search for ingredients you have on hand"
