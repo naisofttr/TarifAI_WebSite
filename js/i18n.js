@@ -113,6 +113,37 @@ let translations = {
             "terms": "Kullanım Koşulları",
             "privacy": "Gizlilik Politikası",
             "developedBy": "NAISoft tarafından geliştirilmiştir"
+        },
+        "privacy": {
+            "title": "Gizlilik Politikası",
+            "introduction": "Giriş",
+            "introText": "TarifAI olarak kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu gizlilik politikası, uygulamamızın veri toplama, kullanma ve paylaşma yaklaşımını açıklamaktadır.",
+            "dataCollection": "Veri Toplama Yaklaşımımız",
+            "dataCollectionText": "TarifAI uygulaması minimal veri toplama prensibini benimsemektedir:",
+            "noPersonalData": "Kişisel Veri Toplamıyoruz: Kullanıcılarımızdan kişisel bilgiler (isim, e-posta, telefon numarası vb.) talep etmiyor veya toplamıyoruz.",
+            "noUsageAnalysis": "Kullanım Analizi Yapmıyoruz: Kullanıcıların uygulama içi davranışlarını takip etmiyor veya analiz etmiyoruz.",
+            "noLocationData": "Konum Verisi Almıyoruz: Kullanıcılarımızın konum bilgilerini talep etmiyor veya takip etmiyoruz.",
+            "localData": "Yerel Veri Depolama",
+            "localDataText": "TarifAI uygulaması aşağıdaki bilgileri yalnızca cihazınızda depolar:",
+            "preferences": "Tercihleriniz: Seçtiğiniz malzemeler ve tariflere ait veriler sadece cihazınızda saklanır.",
+            "cache": "Önbellek Verileri: Uygulama performansını artırmak için bazı veriler (örn. tarifler, görseller) cihazınızda önbelleğe alınabilir.",
+            "localDataNote": "Bu veriler hiçbir şekilde sunucularımıza aktarılmaz ve tamamen cihazınızda tutulur.",
+            "apiUsage": "API Kullanımı",
+            "apiUsageText": "Uygulamamız yalnızca tarif önerileri almak, menüler sunmak için sunucularımızla iletişim kurar. Bu iletişim sırasında:",
+            "anonymousData": "Seçtiğiniz malzemelerin listesi, istenilen menü tipleri anonim olarak gönderilir.",
+            "noIdentity": "Kullanıcı kimliği veya tanımlayıcı bilgiler gönderilmez.",
+            "minimalData": "Sadece tarif önerilerini alabilmek için gerekli olan minimal veri aktarılır.",
+            "dataSharing": "Veri Paylaşımı",
+            "dataSharingText": "TarifAI, kullanıcı verilerini üçüncü taraflarla paylaşmaz. Uygulamamızın operasyonları için kullandığımız tek veri aktarımı, tarif önerileri için API çağrılarıdır.",
+            "dataDeletion": "Veri Silme",
+            "dataDeletionText": "Uygulamayı cihazınızdan kaldırdığınızda, tüm yerel veriler otomatik olarak silinir. Sunucularımızda kalıcı olarak saklanan herhangi bir kullanıcı verisi olmadığı için, ek bir silme işlemine gerek yoktur.",
+            "childrenPrivacy": "Çocukların Gizliliği",
+            "childrenPrivacyText": "Uygulamamız tüm yaş grupları için uygundur ve çocuklar için özel olarak kişisel veri toplamaz.",
+            "policyChanges": "Politika Değişiklikleri",
+            "policyChangesText": "Bu gizlilik politikasında yapılacak değişiklikler uygulama güncellemeleri ile birlikte duyurulacaktır.",
+            "contact": "İletişim",
+            "contactText": "Bu gizlilik politikası hakkında sorularınız veya geribildirimleriniz için <a href=\"mailto:tarifaiapp@gmail.com\" style=\"color: #D32F2F; font-weight: 700; font-size: 1.1em;\">tarifaiapp@gmail.com</a> adresinden bizimle iletişime geçebilirsiniz.",
+            "lastUpdated": "Son Güncelleme: 14.05.2025"
         }
     },
     en: {
@@ -220,6 +251,37 @@ let translations = {
             "terms": "Terms of Use",
             "privacy": "Privacy Policy",
             "developedBy": "Developed by NAISoft"
+        },
+        "privacy": {
+            "title": "Privacy Policy",
+            "introduction": "Introduction",
+            "introText": "At TarifAI, we place great importance on the privacy of our users. This privacy policy explains our approach to data collection, usage, and sharing within the application.",
+            "dataCollection": "Our Data Collection Approach",
+            "dataCollectionText": "TarifAI follows a minimal data collection principle:",
+            "noPersonalData": "We Do Not Collect Personal Data: We do not request or collect personal information from our users (such as name, email, phone number, etc.).",
+            "noUsageAnalysis": "We Do Not Analyze Usage: We do not track or analyze user behavior within the app.",
+            "noLocationData": "We Do Not Access Location Data: We do not request or track users' location information.",
+            "localData": "Local Data Storage",
+            "localDataText": "The TarifAI app stores the following data only on your device:",
+            "preferences": "Your Preferences: The ingredients you select and data related to your chosen recipes are stored only on your device.",
+            "cache": "Cache Data: Some data (e.g., recipes, images) may be cached locally to improve app performance.",
+            "localDataNote": "This data is never transferred to our servers and remains entirely on your device.",
+            "apiUsage": "API Usage",
+            "apiUsageText": "Our application communicates with our servers solely for the purpose of providing recipe suggestions and menu recommendations. During this process:",
+            "anonymousData": "The list of selected ingredients and the desired menu types are sent anonymously.",
+            "noIdentity": "No user identity or identifiable information is transmitted.",
+            "minimalData": "Only the minimal data required to obtain recipe suggestions is transmitted.",
+            "dataSharing": "Data Sharing",
+            "dataSharingText": "TarifAI does not share user data with third parties. The only data transmission involved in our app operations is API calls for recipe suggestions.",
+            "dataDeletion": "Data Deletion",
+            "dataDeletionText": "When you uninstall the app from your device, all local data is automatically deleted. Since we do not store any persistent user data on our servers, no additional deletion process is necessary.",
+            "childrenPrivacy": "Children's Privacy",
+            "childrenPrivacyText": "Our app is suitable for all age groups and does not specifically collect personal data from children.",
+            "policyChanges": "Policy Changes",
+            "policyChangesText": "Any changes to this privacy policy will be announced alongside app updates.",
+            "contact": "Contact",
+            "contactText": "If you have any questions or feedback regarding this privacy policy, please contact us at <a href=\"mailto:tarifaiapp@gmail.com\" style=\"color: #D32F2F; font-weight: 700; font-size: 1.1em;\">tarifaiapp@gmail.com</a>.",
+            "lastUpdated": "Last Updated: May 14, 2025"
         }
     }
 };
@@ -291,7 +353,12 @@ function applyTranslations() {
                 element.value = translation;
             }
         } else {
-            element.textContent = translation;
+            // Eğer çeviri HTML içeriyorsa innerHTML kullan, aksi halde textContent
+            if (translation.includes('<') && translation.includes('>')) {
+                element.innerHTML = translation;
+            } else {
+                element.textContent = translation;
+            }
         }
     });
 }
