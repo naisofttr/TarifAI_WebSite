@@ -406,13 +406,17 @@ a:hover {
 /* Download Section */
 .download-buttons {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 300px;
 }
 
 .download-buttons .btn-light {
     background-color: #fff;
     color: var(--dark-color);
     transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .download-buttons .btn-light:hover {
@@ -583,6 +587,16 @@ a:hover {
     
     .footer-links a {
         margin: 0 2rem 0 0;
+    }
+    
+    .download-absolute-box {
+        position: static !important;
+        margin: 0 auto 2rem auto;
+        top: unset !important;
+        right: unset !important;
+        left: unset !important;
+        transform: none !important;
+        max-width: 100% !important;
     }
 }
 
