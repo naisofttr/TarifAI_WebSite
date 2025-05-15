@@ -343,12 +343,17 @@ a:hover {
 }
 
 .app-screenshot {
-    margin-top: 3rem;
+    margin-top: 0;
 }
 
 .app-screenshot img {
     max-width: 100%;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: var(--transition);
+}
+
+.app-screenshots-container {
+    gap: 10px;
 }
 
 /* Testimonials Section */
