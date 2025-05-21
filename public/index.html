@@ -1,89 +1,410 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TarifAI - Akıllı Yemek Tarifi Uygulaması</title>
+    <meta name="description" content="TarifAI, sahip olduğunuz malzemelere göre akıllı tarifler öneren yapay zeka destekli bir uygulamadır. Akşama ne pişirsem sorusuna çözüm sunar.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AOS - Animate On Scroll Library -->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="brand-text" data-i18n="app.name">TarifAI</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-i18n="nav.home">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features" data-i18n="nav.features">Özellikler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works" data-i18n="nav.howItWorks">Nasıl Çalışır?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials" data-i18n="nav.testimonials">Yorumlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#download" data-i18n="nav.download">İndir</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="privacy.html" data-i18n="nav.privacy">Gizlilik Politikası</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-i18n="nav.contact">İletişim</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="nav.language">Dil</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+                            <li><a class="dropdown-item" href="#" id="lang-tr">Türkçe</a></li>
+                            <li><a class="dropdown-item" href="#" id="lang-en">English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/11.8.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/11.8.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/11.8.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/11.8.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/11.8.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/11.8.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/11.8.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/11.8.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/11.8.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/11.8.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="hero-title" data-i18n="hero.title">TarifAI ile Yemek Yapmak Artık Daha Kolay</h1>
+                    <p class="hero-subtitle" data-i18n="hero.subtitle">Sahip olduğunuz malzemelere göre lezzetli tarifler bulun, akşama ne pişireceğim sorusuna yanıt alın. Ünlü şeflerin özel menülerinden, sporcu ve diyet menülerine, vegan seçeneklerinden misafirleriniz için özel menü planlamalarına kadar tüm ihtiyaçlarınız için akıllı çözümler sunuyoruz.</p>
+                    <div class="hero-buttons mt-4">
+                        <a href="#download" class="btn btn-primary btn-lg" data-i18n="hero.cta">Hemen İndir</a>
+                        <a href="#features" class="btn btn-outline-light btn-lg ms-3" data-i18n="hero.secondaryCta">Daha Fazla Bilgi</a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-image">
+                        <img src="img/hero.webp" alt="TarifAI App" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <!-- Features Section -->
+    <section id="features" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title" data-i18n="features.title">Neden TarifAI?</h2>
+                <p class="section-subtitle" data-i18n="features.subtitle">Yapay zeka destekli uygulamamız ile yemek pişirmeyi kolaylaştırıyoruz</p>
+            </div>
+            
+            <div class="row g-4 mt-5">
+                <!-- Feature 1 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="feature-title" data-i18n="features.feature1.title">Akıllı Tarif Önerileri</h3>
+                        <p class="feature-description" data-i18n="features.feature1.description">Sahip olduğunuz malzemelere göre en uygun tarifleri sunar</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 class="feature-title" data-i18n="features.feature2.title">Menü Planlama</h3>
+                        <p class="feature-description" data-i18n="features.feature2.description">Özel günler, misafirler veya diyet kısıtlamaları için menüler oluşturur</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-th-large"></i>
+                        </div>
+                        <h3 class="feature-title" data-i18n="features.feature3.title">Çeşitli Kategoriler</h3>
+                        <p class="feature-description" data-i18n="features.feature3.description">Ana yemekler, tatlılar, çorbalar ve daha fazlası için kategorilere ayrılmış tarifler</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3 class="feature-title" data-i18n="features.feature4.title">Favorileri Kaydet</h3>
+                        <p class="feature-description" data-i18n="features.feature4.description">Beğendiğiniz tarifleri kaydederek daha sonra kolayca erişin</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3 class="feature-title" data-i18n="features.feature5.title">Şef Menüleri</h3>
+                        <p class="feature-description" data-i18n="features.feature5.description">Ünlü şeflerin menülerinden ilham alın</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-carrot"></i>
+                        </div>
+                        <h3 class="feature-title" data-i18n="features.feature6.title">Özel Diyet Seçenekleri</h3>
+                        <p class="feature-description" data-i18n="features.feature6.description">Vejetaryen, vegan, glutensiz ve daha birçok diyet için özel tarifler</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title" data-i18n="howItWorks.title">Nasıl Çalışır?</h2>
+            </div>
+            
+            <div class="row mt-5">
+                <!-- Step 1 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-card text-center">
+                        <div class="step-number">1</div>
+                        <div class="step-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3 class="step-title" data-i18n="howItWorks.step1.title">Malzemeleri Seçin</h3>
+                        <p class="step-description" data-i18n="howItWorks.step1.description">Elinizde bulunan malzemeleri seçin veya arayın</p>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-card text-center">
+                        <div class="step-number">2</div>
+                        <div class="step-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3 class="step-title" data-i18n="howItWorks.step2.title">Tarif veya Menü İsteyin</h3>
+                        <p class="step-description" data-i18n="howItWorks.step2.description">TarifAI, seçtiğiniz malzemelerle yapılabilecek en iyi tarifleri veya menüleri önerir</p>
+                    </div>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-card text-center">
+                        <div class="step-number">3</div>
+                        <div class="step-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3 class="step-title" data-i18n="howItWorks.step3.title">Lezzeti Keşfedin</h3>
+                        <p class="step-description" data-i18n="howItWorks.step3.description">Detaylı tarifler, malzeme miktarları ve pişirme yöntemleriyle hemen yemek yapmaya başlayın</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 text-center" data-aos="zoom-in">
+                    <div class="app-screenshots-container d-flex justify-content-center align-items-center flex-wrap">
+                        <div class="app-screenshot mx-2">
+                            <img src="img/app-screen1.webp" alt="TarifAI App Screenshot" class="img-fluid rounded-4">
+                        </div>
+                        <div class="app-screenshot mx-2">
+                            <img src="img/app-screen2.webp" alt="TarifAI App Screenshot" class="img-fluid rounded-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title" data-i18n="testimonials.title">Kullanıcılarımız Ne Diyor?</h2>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-md-10 mx-auto">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Testimonial 1 -->
+                            <div class="carousel-item active">
+                                <div class="testimonial-card text-center" data-aos="fade-up">
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-text" data-i18n="testimonials.testimonial1.text">Artık akşama ne pişireceğim konusunda hiç stres yapmıyorum. TarifAI benim için mükemmel öneriler sunuyor!</p>
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">
+                                            <img src="img/avatar-1.jpg" alt="Ayşe K." class="img-fluid rounded-circle">
+                                        </div>
+                                        <h4 class="author-name" data-i18n="testimonials.testimonial1.author">Ayşe K.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 2 -->
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center" data-aos="fade-up">
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-text" data-i18n="testimonials.testimonial2.text">Uygulama sayesinde çok fazla yeni tarif öğrendim. Evdeki malzemelerle neler yapabileceğimi görmek çok keyifli.</p>
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">
+                                            <img src="img/avatar-2.jpg" alt="Mehmet Y." class="img-fluid rounded-circle">
+                                        </div>
+                                        <h4 class="author-name" data-i18n="testimonials.testimonial2.author">Mehmet Y.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 3 -->
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center" data-aos="fade-up">
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-text" data-i18n="testimonials.testimonial3.text">Misafirlerim için hazırladığım menü için harika öneriler aldım. Hepsi çok beğendiler.</p>
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">
+                                            <img src="img/avatar-3.jpg" alt="Zeynep S." class="img-fluid rounded-circle">
+                                        </div>
+                                        <h4 class="author-name" data-i18n="testimonials.testimonial3.author">Zeynep S.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-indicators testimonial-indicators">
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonial 1"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Testimonial 2"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Testimonial 3"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="section-padding bg-gradient">
+        <div class="container">
+            <div class="row align-items-start" style="min-height: 500px;">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end" data-aos="fade-right">
+                    <div class="download-content" style="max-width: 350px; width: 100%; margin-top: 40px;">
+                        <h2 class="text-white section-title" data-i18n="download.title">Hemen İndirin</h2>
+                        <p class="text-white mb-4" data-i18n="download.subtitle">TarifAI'yi şimdi indirin ve mutfakta yaratıcılığınızı keşfedin</p>
+                        <div class="download-buttons">
+                            <a href="#" class="btn btn-light btn-lg mb-3 w-100">
+                                <i class="fab fa-apple me-2"></i>
+                                <span data-i18n="download.appStore">App Store'dan İndir</span>
+                            </a>
+                            <a href="#" class="btn btn-light btn-lg w-100">
+                                <i class="fab fa-google-play me-2"></i>
+                                <span data-i18n="download.googlePlay">Google Play'den İndir</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center justify-content-start" data-aos="fade-left">
+                    <div class="download-image text-center">
+                        <img src="img/app-download.webp" alt="TarifAI App Download" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title" data-i18n="contact.title">İletişime Geçin</h2>
+                <p class="section-subtitle" data-i18n="contact.subtitle">Sorularınız için bize ulaşın</p>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="email" class="form-label" data-i18n="contact.email">E-posta</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label" data-i18n="contact.message">Mesajınız</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" data-i18n="contact.send">Gönder</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="contact-info">
+                        <h3 class="mb-4" data-i18n="contact.address">İletişim</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:tarifaiapp@gmail.com" class="contact-link" data-i18n="contact.supportEmail">tarifaiapp@gmail.com</a>
+                        </div>
+                        <div class="contact-social-icons mt-4">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-logo">
+                        <h3 class="text-white">TarifAI</h3>
+                    </div>
+                    <p class="text-white-50" data-i18n="app.slogan">Akşama ne pişirsem sorunuza çözüm sunan AI destekli tarif uygulaması</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-links">
+                        <a href="#" data-i18n="footer.terms">Kullanım Koşulları</a>
+                        <a href="privacy.html" data-i18n="footer.privacy">Gizlilik Politikası</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="row footer-bottom">
+                <div class="col-md-6">
+                    <p class="text-white-50 mb-0" data-i18n="footer.copyright">© 2025 TarifAI. Tüm hakları saklıdır.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-white-50 mb-0" data-i18n="footer.developedBy">NAISoft tarafından geliştirilmiştir</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS - Animate On Scroll Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>
