@@ -268,6 +268,10 @@ a:hover {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     height: 100%;
     transition: var(--transition);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .feature-card:hover {
@@ -279,6 +283,7 @@ a:hover {
     font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .feature-title {
@@ -668,6 +673,13 @@ a:hover {
     
     .hero-buttons .btn-outline-light {
         margin-left: 0 !important;
+    }
+    
+    .feature-card {
+        margin-bottom: 2rem;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
