@@ -343,17 +343,25 @@ a:hover {
 }
 
 .app-screenshot {
-    margin-top: 0;
+    margin: 10px;
+    border: none;
+    box-shadow: none;
 }
 
 .app-screenshot img {
     max-width: 100%;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: var(--transition);
+    border: none;
+    box-shadow: none;
 }
 
 .app-screenshots-container {
-    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 /* Testimonials Section */
@@ -473,13 +481,15 @@ a:hover {
 }
 
 .contact-link {
-    color: var(--dark-color);
-    font-weight: 500;
+    color: var(--primary-color);
+    font-weight: 600;
     transition: var(--transition);
+    font-size: 1.1rem;
 }
 
 .contact-link:hover {
-    color: var(--primary-color);
+    color: #BF2A2A;
+    text-decoration: underline;
 }
 
 .contact-social-icons {
@@ -622,7 +632,8 @@ a:hover {
     }
     
     .app-screenshot {
-        margin-top: 1rem;
+        margin: 5px;
+        width: 45%;
     }
     
     .contact-info {
@@ -636,6 +647,27 @@ a:hover {
     .footer-bottom .text-md-end {
         text-align: center !important;
         margin-top: 1rem;
+    }
+    
+    .app-screenshots-container {
+        gap: 10px;
+    }
+    
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .hero-buttons .btn {
+        width: 80%;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    .hero-buttons .btn-outline-light {
+        margin-left: 0 !important;
     }
 }
 
