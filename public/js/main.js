@@ -1,6 +1,6 @@
 /**
  * main.js - Ana JavaScript Fonksiyonları
- * TarifAI Web Sitesi
+ * Tarif Ai Web Sitesi
  */
 
 document.addEventListener('DOMContentLoaded', function() {

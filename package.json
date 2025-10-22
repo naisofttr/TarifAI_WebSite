@@ -1,0 +1,23 @@
+{
+  "name": "tarifai_website",
+  "version": "1.0.0",
+  "description": "Bu proje, Tarif Ai mobil uygulamasının tanıtımı için geliştirilmiş modern, duyarlı ve çift dilli (Türkçe/İngilizce) tek sayfalık web sitesidir.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naisofttr/TarifAI_WebSite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naisofttr/TarifAI_WebSite/issues"
+  },
+  "homepage": "https://github.com/naisofttr/TarifAI_WebSite#readme",
+  "dependencies": {
+    "firebase-tools": "^14.20.0"
+  }
+}

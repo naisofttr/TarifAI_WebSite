@@ -1,6 +1,6 @@
-# TarifAI Web Sitesi
+# Tarif Ai Web Sitesi
 
-Bu proje, TarifAI mobil uygulamasının tanıtımı için geliştirilmiş modern, duyarlı ve çift dilli (Türkçe/İngilizce) tek sayfalık web sitesidir.
+Bu proje, Tarif Ai mobil uygulamasının tanıtımı için geliştirilmiş modern, duyarlı ve çift dilli (Türkçe/İngilizce) tek sayfalık web sitesidir.
 
 ## Özellikler
 
@@ -81,4 +81,4 @@ Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
 
 ---
 
-© 2025 TarifAI. Tüm hakları saklıdır. 
+© 2025 Tarif Ai. Tüm hakları saklıdır. 

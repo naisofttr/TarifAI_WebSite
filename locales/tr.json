@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "TarifAI",
+    "name": "Tarif Ai",
     "slogan": "Akşama ne pişirsem sorunuza çözüm sunan AI destekli tarif uygulaması"
   },
   "nav": {
@@ -14,13 +14,19 @@
     "howItWorks": "Nasıl Çalışır?"
   },
   "hero": {
-    "title": "TarifAI ile Yemek Yapmak Artık Daha Kolay",
+    "badge": "Yapay zeka ile hazırlanan tarif rehberi",
+    "title": "Tarif Ai ile Yemek Yapmak Artık Daha Kolay",
     "subtitle": "Sahip olduğunuz malzemelere göre lezzetli tarifler bulun, akşama ne pişireceğim sorusuna yanıt alın",
     "cta": "Hemen İndir",
-    "secondaryCta": "Daha Fazla Bilgi"
+    "secondaryCta": "Daha Fazla Bilgi",
+    "highlight1": "Dakikalar içinde kişiselleştirilmiş menüler",
+    "highlight2": "Diyet, vegan ve sporcu planlarına uygun öneriler",
+    "highlight3": "Ünlü şeflerden ilham alan tarif koleksiyonları",
+    "metricLabel": "Tarif kombinasyonu",
+    "metricCaption": "Malzemelerinize göre her gün yeni öneriler"
   },
   "features": {
-    "title": "Neden TarifAI?",
+    "title": "Neden Tarif Ai?",
     "subtitle": "Yapay zeka destekli uygulamamız ile yemek pişirmeyi kolaylaştırıyoruz",
     "feature1": {
       "title": "Akıllı Tarif Önerileri",
@@ -55,7 +61,7 @@
     },
     "step2": {
       "title": "Tarif veya Menü İsteyin",
-      "description": "TarifAI, seçtiğiniz malzemelerle yapılabilecek en iyi tarifleri veya menüleri önerir"
+      "description": "Tarif Ai, seçtiğiniz malzemelerle yapılabilecek en iyi tarifleri veya menüleri önerir"
     },
     "step3": {
       "title": "Lezzeti Keşfedin",
@@ -65,21 +71,21 @@
   "testimonials": {
     "title": "Kullanıcılarımız Ne Diyor?",
     "testimonial1": {
-      "text": "Artık akşama ne pişireceğim konusunda hiç stres yapmıyorum. TarifAI benim için mükemmel öneriler sunuyor!",
+      "text": "Artık akşama ne pişireceğim konusunda hiç stres yapmıyorum. Tarif Ai benim için mükemmel öneriler sunuyor!",
       "author": "Ayşe K."
     },
     "testimonial2": {
-      "text": "Uygulama sayesinde çok fazla yeni tarif öğrendim. Evdeki malzemelerle neler yapabileceğimi görmek çok keyifli.",
+      "text": "Uygulama sayesinde çok fazla yeni tarif öğrendim. Tarif Ai ile evdeki malzemelerle neler yapabileceğimi görmek çok keyifli.",
       "author": "Mehmet Y."
     },
     "testimonial3": {
-      "text": "Misafirlerim için hazırladığım menü için harika öneriler aldım. Hepsi çok beğendiler.",
+      "text": "Misafirlerim için hazırladığım menü için Tarif Ai'den harika öneriler aldım. Hepsi çok beğendiler.",
       "author": "Zeynep S."
     }
   },
   "download": {
     "title": "Hemen İndirin",
-    "subtitle": "TarifAI'yi şimdi indirin ve mutfakta yaratıcılığınızı keşfedin",
+    "subtitle": "Tarif Ai'yi şimdi indirin ve mutfakta yaratıcılığınızı keşfedin",
     "appStore": "App Store'dan İndir",
     "googlePlay": "Google Play'den İndir"
   },
@@ -93,8 +99,28 @@
     "supportEmail": "tarifaiapp@gmail.com",
     "website": "https://tarifai.app"
   },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "introText": "Tarif Ai olarak kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu gizlilik politikası, uygulamamızın veri toplama, kullanma ve paylaşma yaklaşımını açıklar.",
+    "dataCollection": "Veri Toplama Yaklaşımımız",
+    "dataCollectionText": "Tarif Ai uygulaması minimal veri toplama prensibini benimsemektedir:",
+    "noPersonalData": "Kişisel Veri Toplamıyoruz",
+    "noUsageAnalysis": "Kullanım Analizi Yapmıyoruz",
+    "noThirdParty": "Üçüncü Parti Paylaşımı Yok",
+    "dataUsage": "Veri Kullanımı",
+    "dataUsageText": "Tarif Ai, kullanıcı deneyimini geliştirmek için cihaz üzerinde çalışır. Kullanıcıların tarif arama geçmişi veya kişisel tercihleri cihaz üzerinde tutulur.",
+    "dataSecurity": "Veri Güvenliği",
+    "dataSecurityText": "Tarif Ai, kullanıcı bilgilerinin güvenliği için gerekli teknik önlemleri alır. Uygulama, internet bağlantısı olmadan da çalıştığı için veri paylaşımı minimum düzeydedir.",
+    "policyChanges": "Politika Değişiklikleri",
+    "policyChangesText": "Bu gizlilik politikasında yapılacak değişiklikler uygulama güncellemeleri ile birlikte duyurulacaktır.",
+    "contact": "İletişim",
+    "contactText": "Bu gizlilik politikası hakkında sorularınız veya geribildirimleriniz için <a href=\"mailto:tarifaiapp@gmail.com\">tarifaiapp@gmail.com</a> adresinden bizimle iletişime geçebilirsiniz.",
+    "lastUpdated": "Son Güncelleme: 14.05.2025"
+  },
   "footer": {
-    "copyright": "© 2025 TarifAI. Tüm hakları saklıdır.",
+    "links": "Bağlantılar",
+    "social": "Sosyal Medya",
+    "copyright": "© 2025 Tarif Ai. Tüm hakları saklıdır.",
     "terms": "Kullanım Koşulları",
     "privacy": "Gizlilik Politikası",
     "developedBy": "NAISoft tarafından geliştirilmiştir"

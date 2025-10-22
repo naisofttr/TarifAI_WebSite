@@ -6,4 +6,4 @@ Bu klasöre aşağıdaki görselleri eklemeniz gerekmektedir:
 4. app-download.png - İndirme kısmında gösterilecek uygulama görseli
 5. avatar-1.jpg, avatar-2.jpg, avatar-3.jpg - Kullanıcı yorumları için profil görselleri
 
-Not: Görseller TarifAI uygulamasının renklerine ve tasarımına uyumlu olmalıdır. Kırmızı (#FF6B6B) ve turkuaz (#4ECDC4) renkleri ön planda olabilir.
+Not: Görseller Tarif Ai uygulamasının renklerine ve tasarımına uyumlu olmalıdır. Kırmızı (#FF6B6B) ve turkuaz (#4ECDC4) renkleri ön planda olabilir.

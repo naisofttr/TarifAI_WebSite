@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "TarifAI",
+    "name": "Tarif Ai",
     "slogan": "AI-powered recipe app that solves your 'what to cook tonight' dilemma"
   },
   "nav": {
@@ -14,13 +14,19 @@
     "howItWorks": "How It Works?"
   },
   "hero": {
-    "title": "Cooking Made Easier with TarifAI",
-    "subtitle": "Find delicious recipes based on ingredients you have, and get answers to what you should cook tonight",
+    "badge": "AI-crafted recipe companion",
+    "title": "Cooking Made Easier with Tarif Ai",
+    "subtitle": "Find delicious recipes based on ingredients you have and solve the what to cook tonight dilemma",
     "cta": "Download Now",
-    "secondaryCta": "Learn More"
+    "secondaryCta": "Learn More",
+    "highlight1": "Personalized menus in minutes",
+    "highlight2": "Options for diet, vegan and athlete plans",
+    "highlight3": "Collections inspired by renowned chefs",
+    "metricLabel": "Recipe combinations",
+    "metricCaption": "Fresh suggestions every day for your pantry"
   },
   "features": {
-    "title": "Why TarifAI?",
+    "title": "Why Tarif Ai?",
     "subtitle": "We make cooking easier with our AI-powered app",
     "feature1": {
       "title": "Smart Recipe Suggestions",
@@ -55,7 +61,7 @@
     },
     "step2": {
       "title": "Request Recipe or Menu",
-      "description": "TarifAI suggests the best recipes or menus possible with your selected ingredients"
+      "description": "Tarif Ai suggests the best recipes or menus possible with your selected ingredients"
     },
     "step3": {
       "title": "Discover Flavors",
@@ -65,21 +71,21 @@
   "testimonials": {
     "title": "What Our Users Say",
     "testimonial1": {
-      "text": "I no longer stress about what to cook for dinner. TarifAI offers perfect suggestions for me!",
+      "text": "I no longer stress about what to cook for dinner. Tarif Ai offers perfect suggestions for me!",
       "author": "Amy K."
     },
     "testimonial2": {
-      "text": "Thanks to the app, I've learned so many new recipes. It's exciting to see what I can make with ingredients at home.",
+      "text": "Thanks to the app, I've learned so many new recipes. It's exciting to see what I can make with ingredients at home using Tarif Ai.",
       "author": "Mike Y."
     },
     "testimonial3": {
-      "text": "I got great suggestions for the menu I prepared for my guests. They all loved it.",
+      "text": "I got great suggestions from Tarif Ai for the menu I prepared for my guests. They all loved it.",
       "author": "Sarah S."
     }
   },
   "download": {
     "title": "Download Now",
-    "subtitle": "Download TarifAI now and discover your creativity in the kitchen",
+    "subtitle": "Download Tarif Ai now and discover your creativity in the kitchen",
     "appStore": "Download from App Store",
     "googlePlay": "Download from Google Play"
   },
@@ -93,8 +99,28 @@
     "supportEmail": "tarifaiapp@gmail.com",
     "website": "https://tarifai.app"
   },
+  "privacy": {
+    "title": "Privacy Policy",
+    "introText": "At Tarif Ai, we place great importance on our users' privacy. This policy explains how we collect, use, and share data within the app.",
+    "dataCollection": "Our Data Collection Approach",
+    "dataCollectionText": "Tarif Ai follows a minimal data collection principle:",
+    "noPersonalData": "We Do Not Collect Personal Data",
+    "noUsageAnalysis": "No Usage Analytics",
+    "noThirdParty": "No Third-party Sharing",
+    "dataUsage": "Data Usage",
+    "dataUsageText": "Tarif Ai runs on-device to enhance your experience. Recipe history or personal preferences remain stored locally on your device.",
+    "dataSecurity": "Data Security",
+    "dataSecurityText": "Tarif Ai implements necessary technical safeguards to keep your information secure. Because the app can run offline, data sharing stays at a minimum.",
+    "policyChanges": "Policy Changes",
+    "policyChangesText": "Any changes to this privacy policy will be announced alongside app updates.",
+    "contact": "Contact",
+    "contactText": "For questions or feedback about this privacy policy, reach us at <a href=\"mailto:tarifaiapp@gmail.com\">tarifaiapp@gmail.com</a>.",
+    "lastUpdated": "Last Updated: 14.05.2025"
+  },
   "footer": {
-    "copyright": "© 2025 TarifAI. All rights reserved.",
+    "links": "Links",
+    "social": "Social Media",
+    "copyright": "© 2025 Tarif Ai. All rights reserved.",
     "terms": "Terms of Use",
     "privacy": "Privacy Policy",
     "developedBy": "Developed by NAISoft"
