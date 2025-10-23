@@ -343,8 +343,8 @@ img {
 
 .hero-stat {
     position: absolute;
-    bottom: -16px;
-    right: -20px;
+    bottom: -56px;
+    right: -52px;
     background: var(--color-primary);
     color: #fff;
     border-radius: var(--radius-md);
@@ -629,6 +629,12 @@ img {
 .contact-form .form-control {
     max-width: 520px;
     margin: 0 auto;
+}
+
+.contact-form .btn {
+    max-width: 520px;
+    margin: 24px auto 0;
+    display: block;
 }
 
 .footer {
