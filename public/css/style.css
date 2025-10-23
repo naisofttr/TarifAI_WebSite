@@ -355,30 +355,30 @@ img {
 
 .hero-stat {
     position: absolute;
-    bottom: -56px;
-    right: -52px;
+    bottom: -48px;
+    right: -40px;
     background: var(--color-primary);
     color: #fff;
     border-radius: var(--radius-md);
-    padding: 18px 22px;
+    padding: 14px 18px;
     box-shadow: 0 25px 50px rgba(255, 107, 107, 0.4);
-    max-width: 220px;
+    max-width: 200px;
 }
 
 .hero-stat .stat-value {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 700;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .hero-stat .stat-label {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 600;
 }
 
 .hero-stat .stat-caption {
-    margin: 10px 0 0;
-    font-size: 0.85rem;
+    margin: 8px 0 0;
+    font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.85);
 }
 
