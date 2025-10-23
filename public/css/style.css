@@ -318,7 +318,7 @@ img {
     overflow: visible;
     box-shadow: none;
     z-index: 3;
-    min-width: 260px;
+    min-width: 300px;
 }
 
 .hero-surface::after {
@@ -328,7 +328,7 @@ img {
 .hero-image {
     position: relative;
     z-index: 3;
-    max-width: 280px;
+    max-width: 320px;
     width: 100%;
     height: auto;
     filter: drop-shadow(0 36px 90px rgba(14, 10, 28, 0.22));
@@ -340,9 +340,9 @@ img {
 
 .hero-image--secondary {
     position: absolute;
-    left: -120px;
-    bottom: -32px;
-    max-width: 240px;
+    left: -140px;
+    bottom: -40px;
+    max-width: 260px;
     z-index: 2;
     opacity: 0.94;
     transform: rotate(-6deg);
@@ -791,17 +791,17 @@ img {
     }
 
     .hero-surface {
-        min-width: 220px;
+        min-width: 240px;
     }
 
     .hero-image {
-        max-width: 240px;
+        max-width: 260px;
     }
 
     .hero-image--secondary {
-        left: -70px;
-        bottom: -18px;
-        max-width: 200px;
+        left: -80px;
+        bottom: -24px;
+        max-width: 220px;
     }
 
     .hero-stat {
@@ -821,7 +821,7 @@ img {
 
 @media (max-width: 575px) {
     .hero-image {
-        max-width: 210px;
+        max-width: 230px;
         filter: drop-shadow(0 26px 60px rgba(14, 10, 28, 0.2));
     }
 
