@@ -308,13 +308,17 @@ img {
 }
 
 .hero-surface {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
     padding: 0;
     border-radius: var(--radius-lg);
-    position: relative;
     overflow: visible;
-    background: transparent;
     box-shadow: none;
     z-index: 3;
+    min-width: 260px;
 }
 
 .hero-surface::after {
@@ -322,23 +326,31 @@ img {
 }
 
 .hero-image {
-    border-radius: 36px;
-    box-shadow: var(--shadow-hero);
-    background: transparent;
-    mix-blend-mode: normal;
-    filter: none !important;
-    opacity: 1 !important;
-    isolation: isolate;
     position: relative;
-    z-index: 4;
-    transform: none !important;
-    will-change: auto;
+    z-index: 3;
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 36px 90px rgba(14, 10, 28, 0.22));
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-    max-width: 280px;
-    height: auto;
+}
+
+.hero-image--secondary {
+    position: absolute;
+    left: -120px;
+    bottom: -32px;
+    max-width: 240px;
+    z-index: 2;
+    opacity: 0.94;
+    transform: rotate(-6deg);
+    filter: drop-shadow(0 28px 70px rgba(14, 10, 28, 0.2));
+}
+
+.hero-image--primary {
+    z-index: 3;
 }
 
 .hero-stat {
@@ -778,6 +790,20 @@ img {
         padding-top: 140px;
     }
 
+    .hero-surface {
+        min-width: 220px;
+    }
+
+    .hero-image {
+        max-width: 240px;
+    }
+
+    .hero-image--secondary {
+        left: -70px;
+        bottom: -18px;
+        max-width: 200px;
+    }
+
     .hero-stat {
         position: static;
         margin-top: 22px;
@@ -790,6 +816,17 @@ img {
     .contact-details,
     .contact-card {
         padding: 28px;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero-image {
+        max-width: 210px;
+        filter: drop-shadow(0 26px 60px rgba(14, 10, 28, 0.2));
+    }
+
+    .hero-image--secondary {
+        display: none;
     }
 }
 
