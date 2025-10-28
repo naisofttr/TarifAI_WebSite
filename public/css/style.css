@@ -749,6 +749,8 @@ img {
     gap: 4px;
     font-size: 0.95rem;
     color: rgba(255, 255, 255, 0.6);
+    align-items: center;
+    text-align: center;
 }
 
 /* Privacy page adjustments */
@@ -858,8 +860,10 @@ img {
 
     .footer-bottom {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        gap: 24px;
+        text-align: center;
     }
 }
 
