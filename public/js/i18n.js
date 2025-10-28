@@ -37,6 +37,7 @@ const translations = {
             metricCaption: 'Malzemelerinize göre her gün yeni öneriler'
         },
         features: {
+            eyebrow: 'Öne çıkanlar',
             title: 'Neden Tarif Ai?',
             subtitle: 'Yapay zeka destekli uygulamamız ile yemek pişirmeyi kolaylaştırıyoruz',
             feature1: {
@@ -65,6 +66,7 @@ const translations = {
             }
         },
         howItWorks: {
+            eyebrow: '3 adımda yemek hazırsınız',
             title: 'Nasıl Çalışır?',
             step1: {
                 title: 'Malzemeleri Seçin',
@@ -80,6 +82,7 @@ const translations = {
             }
         },
         testimonials: {
+            eyebrow: 'Gerçek kullanıcı görüşleri',
             title: 'Kullanıcılarımız Ne Diyor?',
             testimonial1: {
                 text: 'Artık akşama ne pişireceğim konusunda hiç stres yapmıyorum. Tarif Ai benim için mükemmel öneriler sunuyor!',
@@ -95,12 +98,14 @@ const translations = {
             }
         },
         download: {
+            eyebrow: 'Mobil deneyim',
             title: 'Hemen İndirin',
             subtitle: 'Tarif Ai\'yi şimdi indirin ve mutfakta yaratıcılığınızı keşfedin',
             appStore: 'App Store\'dan İndir',
             googlePlay: 'Google Play\'den İndir'
         },
         contact: {
+            eyebrow: 'Bize yazın',
             title: 'İletişime Geçin',
             subtitle: 'Sorularınız için bize ulaşın',
             email: 'E-posta',
@@ -115,7 +120,7 @@ const translations = {
             copyright: '© 2025 Tarif Ai. Tüm hakları saklıdır.',
             terms: 'Kullanım Koşulları',
             privacy: 'Gizlilik Politikası',
-            developedBy: 'NAISoft tarafından geliştirilmiştir'
+            developedBy: 'nAiSoft tarafından geliştirilmiştir'
         },
         privacy: {
             title: 'Gizlilik Politikası',
@@ -138,7 +143,7 @@ const translations = {
     },
     en: {
         app: {
-            name: 'Tarif Ai',
+            name: 'Recipe Ai',
             slogan: 'AI-powered recipe app that solves your what to cook tonight dilemma'
         },
         nav: {
@@ -153,7 +158,7 @@ const translations = {
         },
         hero: {
             badge: 'AI-crafted recipe companion',
-            title: 'Cooking Made Easier with Tarif Ai',
+            title: 'Cooking Made Easier with Recipe Ai',
             subtitle: 'Find delicious recipes based on ingredients you have and solve the what to cook tonight dilemma',
             cta: 'Download Now',
             secondaryCta: 'Learn More',
@@ -164,7 +169,8 @@ const translations = {
             metricCaption: 'Fresh suggestions every day for your pantry'
         },
         features: {
-            title: 'Why Tarif Ai?',
+            eyebrow: 'Highlights',
+            title: 'Why Recipe Ai?',
             subtitle: 'We make cooking easier with our AI-powered app',
             feature1: {
                 title: 'Smart Recipe Suggestions',
@@ -192,6 +198,7 @@ const translations = {
             }
         },
         howItWorks: {
+            eyebrow: 'Dinner ready in 3 steps',
             title: 'How It Works?',
             step1: {
                 title: 'Select Ingredients',
@@ -199,7 +206,7 @@ const translations = {
             },
             step2: {
                 title: 'Request Recipe or Menu',
-                description: 'Tarif Ai suggests the best recipes or menus possible with your selected ingredients'
+                description: 'Recipe Ai suggests the best recipes or menus possible with your selected ingredients'
             },
             step3: {
                 title: 'Discover Flavors',
@@ -207,27 +214,30 @@ const translations = {
             }
         },
         testimonials: {
+            eyebrow: 'Real user reviews',
             title: 'What Our Users Say',
             testimonial1: {
-                text: 'I no longer stress about what to cook for dinner. Tarif Ai offers perfect suggestions for me!',
+                text: 'I no longer stress about what to cook for dinner. Recipe Ai offers perfect suggestions for me!',
                 author: 'Amy K.'
             },
             testimonial2: {
-                text: "Thanks to the app, I've learned so many new recipes. It's exciting to see what I can make with ingredients at home using Tarif Ai.",
+                text: "Thanks to the app, I've learned so many new recipes. It's exciting to see what I can make with ingredients at home using Recipe Ai.",
                 author: 'Mike Y.'
             },
             testimonial3: {
-                text: 'I got great suggestions from Tarif Ai for the menu I prepared for my guests. They all loved it.',
+                text: 'I got great suggestions from Recipe Ai for the menu I prepared for my guests. They all loved it.',
                 author: 'Sarah S.'
             }
         },
         download: {
+            eyebrow: 'Mobile experience',
             title: 'Download Now',
-            subtitle: 'Download Tarif Ai now and discover your creativity in the kitchen',
+            subtitle: 'Download Recipe Ai now and discover your creativity in the kitchen',
             appStore: 'Download from App Store',
             googlePlay: 'Download from Google Play'
         },
         contact: {
+            eyebrow: 'Write to us',
             title: 'Get in Touch',
             subtitle: 'Contact us for your questions',
             email: 'Email',
@@ -239,23 +249,23 @@ const translations = {
         footer: {
             links: 'Links',
             social: 'Social Media',
-            copyright: '© 2025 Tarif Ai. All rights reserved.',
+            copyright: '© 2025 Recipe Ai. All rights reserved.',
             terms: 'Terms of Use',
             privacy: 'Privacy Policy',
-            developedBy: 'Developed by NAISoft'
+            developedBy: 'Developed by nAiSoft'
         },
         privacy: {
             title: 'Privacy Policy',
-            introText: 'At Tarif Ai, we place great importance on our users\' privacy. This policy explains how we collect, use, and share data within the app.',
+            introText: 'At Recipe Ai, we place great importance on our users\' privacy. This policy explains how we collect, use, and share data within the app.',
             dataCollection: 'Our Data Collection Approach',
-            dataCollectionText: 'Tarif Ai follows a minimal data collection principle:',
+            dataCollectionText: 'Recipe Ai follows a minimal data collection principle:',
             noPersonalData: 'We Do Not Collect Personal Data',
             noUsageAnalysis: 'No Usage Analytics',
             noThirdParty: 'No Third-party Sharing',
             dataUsage: 'Data Usage',
-            dataUsageText: 'Tarif Ai runs on-device to enhance your experience. Recipe history or personal preferences remain stored locally on your device.',
+            dataUsageText: 'Recipe Ai runs on-device to enhance your experience. Recipe history or personal preferences remain stored locally on your device.',
             dataSecurity: 'Data Security',
-            dataSecurityText: 'Tarif Ai implements necessary technical safeguards to keep your information secure. Because the app can run offline, data sharing stays at a minimum.',
+            dataSecurityText: 'Recipe Ai implements necessary technical safeguards to keep your information secure. Because the app can run offline, data sharing stays at a minimum.',
             policyChanges: 'Policy Changes',
             policyChangesText: 'Any changes to this privacy policy will be announced alongside app updates.',
             contact: 'Contact',
@@ -266,7 +276,7 @@ const translations = {
 };
 
 function translatePageTitle() {
-    document.title = `Tarif Ai - ${getTranslation('app.slogan')}`;
+    document.title = `${getTranslation('app.name')} - ${getTranslation('app.slogan')}`;
 }
 
 function changeHtmlLang(lang) {

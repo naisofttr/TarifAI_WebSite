@@ -26,6 +26,7 @@
     "metricCaption": "Malzemelerinize göre her gün yeni öneriler"
   },
   "features": {
+    "eyebrow": "Öne çıkanlar",
     "title": "Neden Tarif Ai?",
     "subtitle": "Yapay zeka destekli uygulamamız ile yemek pişirmeyi kolaylaştırıyoruz",
     "feature1": {
@@ -54,6 +55,7 @@
     }
   },
   "howItWorks": {
+    "eyebrow": "3 adımda yemek hazırsınız",
     "title": "Nasıl Çalışır?",
     "step1": {
       "title": "Malzemeleri Seçin",
@@ -69,6 +71,7 @@
     }
   },
   "testimonials": {
+    "eyebrow": "Gerçek kullanıcı görüşleri",
     "title": "Kullanıcılarımız Ne Diyor?",
     "testimonial1": {
       "text": "Artık akşama ne pişireceğim konusunda hiç stres yapmıyorum. Tarif Ai benim için mükemmel öneriler sunuyor!",
@@ -84,12 +87,14 @@
     }
   },
   "download": {
+    "eyebrow": "Mobil deneyim",
     "title": "Hemen İndirin",
     "subtitle": "Tarif Ai'yi şimdi indirin ve mutfakta yaratıcılığınızı keşfedin",
     "appStore": "App Store'dan İndir",
     "googlePlay": "Google Play'den İndir"
   },
   "contact": {
+    "eyebrow": "Bize yazın",
     "title": "İletişime Geçin",
     "subtitle": "Sorularınız için bize ulaşın",
     "email": "E-posta",
@@ -123,6 +128,6 @@
     "copyright": "© 2025 Tarif Ai. Tüm hakları saklıdır.",
     "terms": "Kullanım Koşulları",
     "privacy": "Gizlilik Politikası",
-    "developedBy": "NAISoft tarafından geliştirilmiştir"
+    "developedBy": "nAiSoft tarafından geliştirilmiştir"
   }
 }
